@@ -1,0 +1,100 @@
+{
+  "health_trend":{
+    "title": "健康度趋势",
+    "draw_line":{
+      "xAxis":[
+        {
+        "value": ""
+      }, {
+        "value": "06age"
+      }, {
+        "value": ""
+      }, {
+        "value": "10age"
+      }, {
+        "value": ""
+      }, {
+        "value": "20age"
+      }, {
+        "value": ""
+      }, {
+        "value": "27age"
+      }
+      ],
+      "series_data":[
+        {
+          "value": 30,
+          "symbolSize": 0
+        }
+      , {
+          "value": 40,
+          "symbolSize": 0
+        }
+      , {
+          "value": 80,
+          "symbolSize": 60
+        }
+      , {
+          "value": 45,
+          "symbolSize": 0
+        }
+      , {
+          "value": 55,
+          "symbolSize": 0
+        }
+      , {
+          "value": 40,
+          "symbolSize": 0
+        }, {
+          "value": 50,
+          "symbolSize": 0
+        }, {
+          "value": 20,
+          "symbolSize": 0
+        }
+      ]
+    }
+  },
+  "item_load":{
+    "title": "负载",
+    "bar_list":[
+      {
+        "namer": "vCPU",
+        "number": "75%"
+      },
+      {
+        "namer": "内存",
+        "number": "55%"
+      },
+      {
+        "namer": "磁盘IO",
+        "number": "25%"
+      },
+      {
+        "namer": "网络IO",
+        "number": "55%"
+      }
+    ]
+  },
+  "item_warn":{
+    "title": "告警",
+    "item_list":[
+      {
+        "namer": "紧急告警",
+        "number": "3"
+      },
+      {
+        "namer": "重要告警",
+        "number": "5"
+      },
+      {
+        "namer": "次要告警",
+        "number": "7"
+      },
+      {
+        "namer": "提示告警",
+        "number": "9"
+      }
+    ]
+  }
+}

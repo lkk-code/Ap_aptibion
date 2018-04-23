@@ -1,0 +1,47 @@
+{
+  "top_box":{
+    "title": "设备维保数据统计",
+    "echart_data":{
+      "id": "bar1",
+      "yAxis": ["Other","Router","Storage","Server","Switch"],
+      "data": [
+        [30, 30, 30, 30, 40],
+        [50, 50, 55, 60, 40],
+        [60, 60, 65, 70, 50],
+        [88, 60, 60, 80, 50],
+        [55, 70, 55, 80, 65]
+      ]
+    }
+  },
+  "bottom_box": {
+    "title": "资源状态",
+    "circle_list":[
+      {
+        "id":"drawPieArr1",
+        "number": 70,
+        "namer": "配电",
+        "color": "#34B7FA"
+      },
+      {
+        "id":"drawPieArr2",
+        "number": 85,
+        "namer": "制冷",
+        "color": "#2DF5A6"
+      },
+      {
+        "id":"drawPieArr3",
+        "number": 56,
+        "namer": "U空间",
+        "color": "#FFD939"
+      }
+    ],
+    "draw_bar":{
+      "id": "bar4",
+      "xAxis": ["A","B","C","D","E","F","G"],
+      "data": [
+        [150, 180, 130, 150, 200, 150, 120],
+        [200, 210, 220, 250, 400, 350, 220]
+      ]
+    }
+  }
+}

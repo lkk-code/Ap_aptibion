@@ -1,0 +1,42 @@
+{
+  "top_box":{
+    "title": "能效分析",
+    "echart_data":{
+      "id": "pie6",
+      "data": [
+        {
+          "value": 21900,
+          "name": "IT设备"
+        },
+        {
+          "value": 41716,
+          "name": "制冷"
+        },
+        {
+          "value": 16111,
+          "name": "其他"
+        }
+      ]
+    }
+  },
+  "bottom_box":{
+    "title": "设备类型统计占比数",
+    "echart_data":{
+      "id": "bar3",
+      "data": [
+        {
+          "value": 30
+        },
+        {
+          "value": 10
+        },
+        {
+          "value": 50
+        },
+        {
+          "value": 10
+        }
+      ]
+    }
+  }
+}

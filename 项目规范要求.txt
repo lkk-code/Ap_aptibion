@@ -1,0 +1,15 @@
+﻿//首先确保你已经正确安装了nodejs环境。然后以全局方式安装gulp：
+npm install -g gulp
+
+//全局安装gulp后，还需要在每个要使用gulp的项目中都单独安装一次。把目录切换到你的项目文件夹中，然后在命令行中执行：
+npm install gulp
+
+npm install
+
+//运行
+gulp
+
+
+
+1.全局的东西要以 gl 命名开头
+2.css是rem为单位 基准是100 (可以用Less)

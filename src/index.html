@@ -1,0 +1,641 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ap_exhibition</title>
+
+
+    <link rel="stylesheet" href="./css/jquery.dataTables.min.css">
+    <!--<link rel="stylesheet" href="./css/animate.css">-->
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/layui.css">
+    <script src="./js/flexible.js"></script>
+    <script src="./js/flexible_css.js"></script>
+    <link rel="stylesheet" href="css/Ap_exhibition.css">
+</head>
+<body style="font-size: 12px" class="data_center">
+    <div id="back_x">
+        <div class="box_1_z clear" >
+            <h2 class="title pa">数据中心运维概览</h2>
+            <img src="img/47.png" alt="">
+
+            <div class="dao_h w_100">
+                <div class="col_1_1 fl">
+                <div class="fl"><img src="img/yuan.png" alt=""></div>
+                <div class="fl"><img src="img/d_1.png" alt=""></div>
+                <div class="fl label_1">20360 </div>
+                <div class="fl">Kwh</div>
+                <div class="fl load_1 fs18">耗电量</div>
+            </div>
+                <div class="col_1_1 fl">
+                    <div class="fl"><img src="img/yuan.png" alt=""></div>
+                    <div class="fl"><img src="img/d_2.png" alt=""></div>
+                    <div class="fl label_1">150 </div>
+                    <div class="fl">天</div>
+                    <div class="fl fs18">安全运行天数</div>
+                </div>
+                <div class="col_1_1 fl">
+                    <div class="fl"><img src="img/yuan.png" alt=""></div>
+                    <div class="fl"><img src="img/d_3.png" alt=""></div>
+                    <div class="fl label_1">99.995 </div>
+                    <div class="fl">%</div>
+                    <div class="fl load_2 fs18">供电MTBF</div>
+                </div>
+                <div class="col_1_1 fl">
+                    <div class="fl"><img src="img/yuan.png" alt=""></div>
+                    <div class="fl"><img src="img/d_4.png" alt=""></div>
+                    <div class="fl label_1 fs34">95 </div>
+                    <div class="fl">/100</div>
+                    <div class="fl load_3 fs18">巡检完成率</div>
+                </div>
+                <div class="col_1_1 fl">
+                    <div class="fl"><img src="img/yuan.png" alt=""></div>
+                    <div class="fl"><img src="img/d_5.png" alt=""></div>
+                    <div class="fl label_1 fs34">10 </div>
+                    <div class="fl">/23</div>
+                    <div class="fl load_4 fs18">上架完成率</div>
+                </div>
+                <div class="col_1_1 fl">
+                    <div class="fl"><img src="img/yuan.png" alt=""></div>
+                    <div class="fl"><img src="img/d_1.png" alt=""></div>
+                    <div class="fl label_1">1.45 </div>
+                    <div></div>
+                    <div class="fl load_5 fs18">PUE</div>
+                </div>
+                <div class="col_1_1 fl">
+                    <div class="fl"><img src="img/yuan.png" alt=""></div>
+                    <div class="fl"><img src="img/d_6.png" alt=""></div>
+                    <div class="fl label_1">4.56 </div>
+                    <div></div>
+                    <div class="fl load_6 fs18">制冷COP</div>
+                </div>
+            </div>
+       </div>
+        <div id="top_w" class="J_top_content_box top_content_box clear clear ">
+            <div class="back_w">
+                <div class="row fl w_100 clear">
+                    <div class="col_1_2 h_100 fl">
+                        <div class="left_1 w_100">
+                            <h2 class="title">当前健康度</h2>
+                            <div class="left_3 fl">
+                                <img class="fl" src="img/yuan_1.png" alt="">
+                                <img class="fl" src="img/yuandian.png"></img>
+                                <img src="img/32.png" alt="">
+                            </div>
+                            <div class="right_3 fl">
+                                <div class="rowa w_100">
+                                    <img class="fl" src="img/15.png" alt="">
+                                    <div class="fl">CPU分配率超过阈值，存在分配风险</div>
+                                </div>
+                                <div class="rowa w_100">
+                                    <img class="fl" src="img/15.png" alt="">
+                                    <div class="fl">内存使用率超过阈值，存在满负载风险</div>
+                                </div>
+                                <div class="rowa w_100">
+                                    <img class="fl" src="img/15.png" alt="">
+                                    <div class="fl">存在大量闲置虚拟机</div>
+                                </div>
+                                <div class="rowa w_100">
+                                    <img class="fl" src="img/15.png" alt="">
+                                    <div class="fl">存在大量紧急告警</div>
+                                </div>
+                                <div class="rowa w_100">
+                                    <img class="fl" src="img/15.png" alt="">
+                                    <div class="fl">大量虚拟机处于关机状态</div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="left_2 fl">
+                            <h2 class="title">资源总量</h2>
+                            <div class="left_4 w_100">
+                                <div class="late_1">
+                                    <div class="fl"><img src="img/tubiao/服务器.png" alt=""></div>
+                                    <div class="fl">主机</div>
+                                    <div class="fl"><img src="img/tubiao/形状%20519.png" alt=""></div>
+                                    <div class="fr">5</div>
+                                </div>
+                                <div class="late_1">
+                                    <div class="fl"><img src="img/tubiao/cpu.png" alt=""></div>
+                                    <div class="fl">vCPU(core)</div>
+                                    <div class="fl line_1"><img class="as" src="img/tubiao/形状%20519%20拷贝.png" alt=""></div>
+                                    <div class="fr">320</div>
+                                </div>
+                                <div class="late_1">
+                                    <div class="fl"><img src="img/tubiao/j-ram%20内存.png" alt=""></div>
+                                    <div class="fl">内存(GB)</div>
+                                    <div class="fl line_2"><img class="as" src="img/tubiao/形状%20519%20拷贝.png" alt=""></div>
+                                    <div class="fr">135</div>
+                                </div>
+                                <div class="late_1">
+                                    <div class="fl"><img src="img/tubiao/chucun.png" alt=""></div>
+                                    <div class="fl">储存(TB)</div>
+                                    <div class="fl line_3"><img class="as" src="img/tubiao/形状%20519%20拷贝.png" alt=""></div>
+                                    <div class="fr">25</div>
+                                </div>
+                                <div class="late_1">
+                                    <div class="fl"><img src="img/tubiao/服务器.png" alt=""></div>
+                                    <div class="fl">虚拟机</div>
+                                    <div class="fl line_4"><img class="as" src="img/tubiao/形状%20519%20拷贝.png" alt=""></div>
+                                    <div class="fr">100</div>
+                                    <div class="fr">18/</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="left_2 fl">
+                            <h2 class="title">可回收资源</h2>
+                            <div class="right_4 w_100">
+
+                                <div class=" right_1 fl">
+                                    <div>vCPU(core)</div>
+                                    <div><img src="img/tubiao/cpu.png" alt=""></div>
+                                    <div>8700</div>
+                                </div>
+                                <div class=" right_1 fl">
+                                    <div>内存(GB)</div>
+                                    <div><img src="img/tubiao/j-ram%20内存.png" alt=""></div>
+                                    <div>8700</div>
+                                </div>
+                                <div class=" right_1 fl">
+                                    <div>储存(TB)</div>
+                                    <div><img src="img/tubiao/chucun.png" alt=""></div>
+                                    <div>8700</div>
+                                </div>
+                                <div class="right_2 w_100 fl">
+                                    <div id="bar14" class="w_100 h_100"></div>
+                                    <!--<div class="fl"><img src="img/tubiao/1149.png" alt=""></div>-->
+                                    <!--<div class="fl"><img src="img/tubiao/矩形%205%20拷贝%209.png" alt="">&nbsp;闲置虚拟机 28%</div>-->
+                                    <!--<div class="fl"><img src="img/tubiao/矩形%205%20拷贝%2011.png" alt="">&nbsp;已关闭电源的虚拟机 10%</div>-->
+                                    <!--<div class="fl"><img src="img/tubiao/矩形%205%20拷贝%2010.png" alt="">&nbsp;容量过载的虚拟机 62%</div>-->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col_1_2 h_100 fl">
+                        <!--健康度趋势-->
+                        <div class="left_1 w_100 health_trend">
+                            <h2 class="title">健康度趁势</h2>
+                            <div class="health_trend_box w_100 h_100" id="healthTrend"></div>
+                            <!--<div class="w_100 h_100 " id="line1"></div>-->
+                        </div>
+                        <!--负载-->
+                        <div class="fl item_box item_load border">
+                            <div class="name_box">负载</div>
+                            <div class="bar_list_box clear">
+                                <!--<div class="bar_item clear">
+                                    <div class="fl bar_name_box">vCPU</div>
+                                    <div class="fl bar_box">
+                                        <div class="bar gl_gradient_orange"></div>
+                                    </div>
+                                    <div class="fl per_box">66%</div>
+                                </div>
+                                <div class="bar_item clear">
+                                    <div class="fl bar_name_box">内存</div>
+                                    <div class="fl bar_box">
+                                        <div class="bar gl_gradient_blue" style="width: 36%;"></div>
+                                    </div>
+                                    <div class="fl per_box">36%</div>
+                                </div>
+                                <div class="bar_item clear">
+                                    <div class="fl bar_name_box">磁盘IO</div>
+                                    <div class="fl bar_box">
+                                        <div class="bar gl_gradient_blue" style="width: 36%;"></div>
+                                    </div>
+                                    <div class="fl per_box">36%</div>
+                                </div>
+                                <div class="bar_item clear">
+                                    <div class="fl bar_name_box">网络IO</div>
+                                    <div class="fl bar_box">
+                                        <div class="bar gl_gradient_blue" style="width: 36%;"></div>
+                                    </div>
+                                    <div class="fl per_box">36%</div>
+                                </div>-->
+                            </div>
+                        </div>
+                        <!--<div class="left_2 fl">-->
+                            <!--<h2 class="title">负载</h2>-->
+                            <!--<div class="fz_1 w_100">-->
+                                <!--<div class="w_100 h_100" id="bar15"></div>-->
+                                <!--&lt;!&ndash;<div class="ff_1 w_100">&ndash;&gt;-->
+                                    <!--&lt;!&ndash;<div class="fl">vCPU</div>&ndash;&gt;-->
+                                    <!--&lt;!&ndash;<div class="fl"><img src="img/tubiao/changtiao1.png" alt=""></div>&ndash;&gt;-->
+                                    <!--&lt;!&ndash;<div class="fr">66%</div>&ndash;&gt;-->
+                                <!--&lt;!&ndash;</div>&ndash;&gt;-->
+                                <!--&lt;!&ndash;<div class="ff_1 w_100">&ndash;&gt;-->
+                                    <!--&lt;!&ndash;<div class="fl">内存</div>&ndash;&gt;-->
+                                    <!--&lt;!&ndash;<div class="fl"><img src="img/tubiao/changtiao2.png" alt=""></div>&ndash;&gt;-->
+                                    <!--&lt;!&ndash;<div class="fr co">36%</div>&ndash;&gt;-->
+                                <!--&lt;!&ndash;</div>&ndash;&gt;-->
+                                <!--&lt;!&ndash;<div class="ff_1 w_100">&ndash;&gt;-->
+                                    <!--&lt;!&ndash;<div class="fl">磁盘IO</div>&ndash;&gt;-->
+                                    <!--&lt;!&ndash;<div class="fl"><img src="img/tubiao/changtiao3.png" alt=""></div>&ndash;&gt;-->
+                                    <!--&lt;!&ndash;<div class="fr co">21%</div>&ndash;&gt;-->
+                                <!--&lt;!&ndash;</div>&ndash;&gt;-->
+                                <!--&lt;!&ndash;<div class="ff_1 w_100">&ndash;&gt;-->
+                                    <!--&lt;!&ndash;<div class="fl">网络</div>&ndash;&gt;-->
+                                    <!--&lt;!&ndash;<div class="fl"><img src="img/tubiao/changtiao4.png" alt=""></div>&ndash;&gt;-->
+                                    <!--&lt;!&ndash;<div class="fr co">17%</div>&ndash;&gt;-->
+                                <!--&lt;!&ndash;</div>&ndash;&gt;-->
+                            <!--</div>-->
+                        <!--</div>-->
+                        <div class="left_2 fl">
+                            <h2 class="title">告警</h2>
+                            <div class="gz_1 w_100 fl">
+                                <div class="gg_1 fl">
+                                      <div class="fl"><img src="./img/tubiao/fire.png" alt=""></div>
+                                     <div class="fl">紧急告警</div>
+                                    <div class="fl">12</div>
+                                </div>
+                                <div class="gg_1 fl">
+                                    <div class="fl"><img src="./img/tubiao/闪电.png" alt=""></div>
+                                    <div class="fl">重要告警</div>
+                                    <div class="fl">30</div>
+                                </div>
+                                <div class="gg_1 fl">
+                                    <div class="fl"><img src="./img/tubiao/提示.png" alt=""></div>
+                                    <div class="fl">次要告警</div>
+                                    <div class="fl">12</div>
+                                </div>
+                                <div class="gg_1 fl">
+                                    <div class="fl"><img src="./img/tubiao/提示%20拷贝.png" alt=""></div>
+                                    <div class="fl">提示告警</div>
+                                    <div class="fl">30</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col_1_3 h_100 fl">
+                        <div class="title_1">云资源池负载Top5</div>
+                        <div class="boed w_100">
+                            <div class="baded fl">
+                                <!--<div class="title_2">CPU使用率</div>-->
+                                <div class="w_100 " id="chart_6"></div>
+                                <!--<div class="sf zyt">-->
+                                    <!--<div class="fl sf">资源池1</div>-->
+                                    <!--<div class="fl sf"><img src="./img/tubiao/ziyuan.png" alt=""></div>-->
+                                    <!--<div id="les" class="fl sf ">66%</div>-->
+                                <!--</div>-->
+                                <!--<div class="sf zyt">-->
+                                    <!--<div class="fl sf">资源池2</div>-->
+                                    <!--<div class="fl sf"><img src="./img/tubiao/ziyuan_1.png" alt=""></div>-->
+                                    <!--<div class="fl sf">66%</div>-->
+                                <!--</div>-->
+                                <!--<div class="sf zyt">-->
+                                    <!--<div class="fl sf">资源池3</div>-->
+                                    <!--<div class="fl sf"><img src="./img/tubiao/ziyuan_2.png" alt=""></div>-->
+                                    <!--<div class="fl sf">66%</div>-->
+                                <!--</div>-->
+                                <!--<div class="sf zyt">-->
+                                    <!--<div class="fl sf">资源池4</div>-->
+                                    <!--<div class="fl sf"><img src="./img/tubiao/ziyuan_3.png" alt=""></div>-->
+                                    <!--<div class="fl sf">66%</div>-->
+                                <!--</div>-->
+                                <!--<div class="sf zyt">-->
+                                    <!--<div class="fl sf">资源池5</div>-->
+                                    <!--<div class="fl sf"><img src="./img/tubiao/ziyuan_3.png" alt=""></div>-->
+                                    <!--<div class="fl sf">66%</div>-->
+                                <!--</div>-->
+                            </div>
+                            <div class="baded fl">
+                                <!--<div class="title_2">内存使用率</div>-->
+                                <div class="w_100" id="chart_7"></div>
+                                <!--<div class="sf zyt">-->
+                                    <!--<div class="fl sf">资源池1</div>-->
+                                    <!--<div class="fl sf"><img src="./img/tubiao/ziyuan.png" alt=""></div>-->
+                                    <!--<div id="les1" class="fl sf ">66%</div>-->
+                                <!--</div>-->
+                                <!--<div class="sf zyt">-->
+                                    <!--<div class="fl sf">资源池2</div>-->
+                                    <!--<div class="fl sf"><img src="./img/tubiao/ziyuan_1.png" alt=""></div>-->
+                                    <!--<div class="fl sf">66%</div>-->
+                                <!--</div>-->
+                                <!--<div class="sf zyt">-->
+                                    <!--<div class="fl sf">资源池3</div>-->
+                                    <!--<div class="fl sf"><img src="./img/tubiao/ziyuan_2.png" alt=""></div>-->
+                                    <!--<div class="fl sf">66%</div>-->
+                                <!--</div>-->
+                                <!--<div class="sf zyt">-->
+                                    <!--<div class="fl sf">资源池4</div>-->
+                                    <!--<div class="fl sf"><img src="./img/tubiao/ziyuan_3.png" alt=""></div>-->
+                                    <!--<div class="fl sf">66%</div>-->
+                                <!--</div>-->
+                                <!--<div class="sf zyt">-->
+                                    <!--<div class="fl sf">资源池5</div>-->
+                                    <!--<div class="fl sf"><img src="./img/tubiao/ziyuan_3.png" alt=""></div>-->
+                                    <!--<div class="fl sf">66%</div>-->
+                                <!--</div>-->
+                            </div>
+                            <div class="baded fl">
+                                <!--<div class="title_2">磁盘IO</div>-->
+                                <div class="w_100" id="chart_8"></div>
+                                <!--<div class="sf zyt">-->
+                                    <!--<div class="fl sf">资源池1</div>-->
+                                    <!--<div class="fl sf"><img src="./img/tubiao/ziyuan.png" alt=""></div>-->
+                                    <!--<div id="les2" class="fl sf ">66%</div>-->
+                                <!--</div>-->
+                                <!--<div class="sf zyt">-->
+                                    <!--<div class="fl sf">资源池2</div>-->
+                                    <!--<div class="fl sf"><img src="./img/tubiao/ziyuan_1.png" alt=""></div>-->
+                                    <!--<div class="fl sf">66%</div>-->
+                                <!--</div>-->
+                                <!--<div class="sf zyt">-->
+                                    <!--<div class="fl sf">资源池3</div>-->
+                                    <!--<div class="fl sf"><img src="./img/tubiao/ziyuan_2.png" alt=""></div>-->
+                                    <!--<div class="fl sf">66%</div>-->
+                                <!--</div>-->
+                                <!--<div class="sf zyt">-->
+                                    <!--<div class="fl sf">资源池4</div>-->
+                                    <!--<div class="fl sf"><img src="./img/tubiao/ziyuan_3.png" alt=""></div>-->
+                                    <!--<div class="fl sf">66%</div>-->
+                                <!--</div>-->
+                                <!--<div class="sf zyt">-->
+                                    <!--<div class="fl sf">资源池5</div>-->
+                                    <!--<div class="fl sf"><img src="./img/tubiao/ziyuan_3.png" alt=""></div>-->
+                                    <!--<div class="fl sf">66%</div>-->
+                                <!--</div>-->
+                            </div>
+                            <div class="baded fl">
+                                <!--<div class="title_2">网络IO</div>-->
+                                <div id="chart_9" class="w_100"></div>
+                                <!--<div class="sf zyt">-->
+                                    <!--<div class="fl sf">资源池1</div>-->
+                                    <!--<div class="fl sf"><img src="./img/tubiao/ziyuan.png" alt=""></div>-->
+                                    <!--<div id="les3" class="fl sf ">66%</div>-->
+                                <!--</div>-->
+                                <!--<div class="sf zyt">-->
+                                    <!--<div class="fl sf">资源池2</div>-->
+                                    <!--<div class="fl sf"><img src="./img/tubiao/ziyuan_1.png" alt=""></div>-->
+                                    <!--<div class="fl sf">66%</div>-->
+                                <!--</div>-->
+                                <!--<div class="sf zyt">-->
+                                    <!--<div class="fl sf">资源池3</div>-->
+                                    <!--<div class="fl sf"><img src="./img/tubiao/ziyuan_2.png" alt=""></div>-->
+                                    <!--<div class="fl sf">66%</div>-->
+                                <!--</div>-->
+                                <!--<div class="sf zyt">-->
+                                    <!--<div class="fl sf">资源池4</div>-->
+                                    <!--<div class="fl sf"><img src="./img/tubiao/ziyuan_3.png" alt=""></div>-->
+                                    <!--<div class="fl sf">66%</div>-->
+                                <!--</div>-->
+                                <!--<div class="sf zyt">-->
+                                    <!--<div class="fl sf">资源池5</div>-->
+                                    <!--<div class="fl sf"><img src="./img/tubiao/ziyuan_3.png" alt=""></div>-->
+                                    <!--<div class="fl sf">66%</div>-->
+                                <!--</div>-->
+                            </div>
+                        </div>
+                        <div class="col_1_3_1 fl">
+                            <div class="title_1">大数据主机</div>
+                            <!--<div class="set_la">总量1600</div>-->
+                            <div class="title_22">主机状态分布</div>
+                            <img class="set_lq" src="./img/tubiao/tuyuan_22.png" alt="">
+                            <div class="w_100 h_100" id="pie1"> </div>
+                            <div class="legend_list1"></div>
+                        </div>
+                        <div class="col_1_3_1 fl">
+                            <div class="title_1">&nbsp;</div>
+                            <div class="title_22">主机用途分布</div>
+                            <!--<div class="set_la1">总量1600</div>-->
+                            <img class="set_lq1" src="./img/tubiao/tuyuan_22.png" alt="">
+                            <div class="w_100 h_100" id="pie2"> </div>
+                            <div class="legend_list2"></div>
+                        </div>
+                        <div class="col_1_3_2 fl">
+                            <div class="title_11">主机服务分布</div>
+                            <div class="title_1">&nbsp;</div>
+                            <div class="w_100 h_100" id="line2"> </div>
+                        </div>
+                        <div class="col_1_3_3 fl">
+                            <div class="title_1">大数据资产</div>
+                            <!--<div class="set_la2">总量1100</div>-->
+                            <div class="title_22">存储空间使用量分布(GB)</div>
+                            <img class="set_lq2" src="./img/tubiao/tuyuan_22.png" alt="">
+                            <div class="w_100 h_100" id="pie3"></div>
+                            <div class="legend_list3"></div>
+                        </div>
+                        <div class="col_1_3_4 fl">
+                            <div class="title_1">&nbsp;</div>
+                            <div class="title_22">大数据表数量分布(张)</div>
+                            <!--<div class="set_la3">总量1900</div>-->
+                            <img class="set_lq3" src="./img/tubiao/tuyuan_22.png" alt="">
+                            <div class="w_100 h_100" id="pie4"></div>
+                            <div class="legend_list4"></div>
+                        </div>
+                        <div class="col_1_3_4 fl">
+                            <div class="title_1">&nbsp;</div>
+                            <div class="title_22">大数据条数量分布(条)</div>
+                            <!--<div class="set_la4">总量1900</div>-->
+                            <img class="set_lq4" src="./img/tubiao/tuyuan_22.png" alt="">
+                            <div class="w_100 h_100" id="pie5"></div>
+                            <div class="legend_list4"></div>
+                        </div>
+                        <div class="col_1_3_5 fl">
+                            <div class="title_17">大数据资源容量</div>
+                            <!--<div class="title_2">大数据资源分配率</div>-->
+                            <div id="bar13" class="w_100 h_100"></div>
+                            <!--<div class="cpu w_100">-->
+                                <!--<div class="fl sf">CPU(核)</div>-->
+                                <!--<img class="fl sf" src="img/tubiao/ziyuan_1.png" alt="">-->
+                                <!--<div class="fr sf">356/1000</div>-->
+                            <!--</div>-->
+                            <!--<div class="cpu w_100">-->
+                                <!--<div class="fl sf">内存(GB)</div>-->
+                                <!--<img class="fl sf" src="img/tubiao/ziyuan_1.png" alt="">-->
+                                <!--<div class="fr sf">56/1000</div>-->
+                            <!--</div>-->
+                            <!--<div class="cpu w_100">-->
+                                <!--<div class="fl sf">磁盘(BG)</div>-->
+                                <!--<img class="fl sf" src="img/tubiao/ziyuan_2.png" alt="">-->
+                                <!--<div class="fr sf">1900/1000</div>-->
+                            <!--</div>-->
+                        </div>
+                        <div id="title_7">大数据资源池负载Top5</div>
+                        <div class="col_1_3_6 fl">
+                            <!--<div class="title_3">CPU分配率</div>-->
+                            <div class="w_100" id="chart_10"></div>
+                            <!--<div class="cpu1 w_100">-->
+                                <!--<div class="fl sf1">资源池1</div>-->
+                                <!--<img class="fl sf1" src="img/tubiao/ziyuan.png" alt="">-->
+                                <!--<div id="lus" class="fl sf1">66%</div>-->
+                            <!--</div>-->
+                            <!--<div class="cpu1 w_100">-->
+                                <!--<div class="fl sf1">资源池2</div>-->
+                                <!--<img class="fl sf1" src="img/tubiao/ziyuan_1.png" alt="">-->
+                                <!--<div class="fl sf1">36%</div>-->
+                            <!--</div>-->
+                            <!--<div class="cpu1 w_100">-->
+                                <!--<div class="fl sf1">资源池3</div>-->
+                                <!--<img class="fl sf1" src="img/tubiao/ziyuan_2.png" alt="">-->
+                                <!--<div class="fl sf1">21%</div>-->
+                            <!--</div>-->
+                            <!--<div class="cpu1 w_100">-->
+                                <!--<div class="fl sf1">资源池4</div>-->
+                                <!--<img class="fl sf1" src="img/tubiao/ziyuan_3.png" alt="">-->
+                                <!--<div class="fl sf1">17%</div>-->
+                            <!--</div>-->
+                            <!--<div class="cpu1 w_100">-->
+                                <!--<div class="fl sf1">资源池5</div>-->
+                                <!--<img class="fl sf1" src="img/tubiao/ziyuan_3.png" alt="">-->
+                                <!--<div class="fl sf1">17%</div>-->
+                            <!--</div>-->
+                        </div>
+                        <div class="col_1_3_6 fl">
+                            <!--<div class="title_3">内存分配率</div>-->
+                            <div id="chart_11" class="w_100"></div>
+                            <!--<div class="cpu1 w_100">-->
+                                <!--<div class="fl sf1">资源池1</div>-->
+                                <!--<img class="fl sf1" src="img/tubiao/ziyuan.png" alt="">-->
+                                <!--<div id="lus1" class="fl sf1">66%</div>-->
+                            <!--</div>-->
+                            <!--<div class="cpu1 w_100">-->
+                                <!--<div class="fl sf1">资源池2</div>-->
+                                <!--<img class="fl sf1" src="img/tubiao/ziyuan_1.png" alt="">-->
+                                <!--<div class="fl sf1">36%</div>-->
+                            <!--</div>-->
+                            <!--<div class="cpu1 w_100">-->
+                                <!--<div class="fl sf1">资源池3</div>-->
+                                <!--<img class="fl sf1" src="img/tubiao/ziyuan_2.png" alt="">-->
+                                <!--<div class="fl sf1">21%</div>-->
+                            <!--</div>-->
+                            <!--<div class="cpu1 w_100">-->
+                                <!--<div class="fl sf1">资源池4</div>-->
+                                <!--<img class="fl sf1" src="img/tubiao/ziyuan_3.png" alt="">-->
+                                <!--<div class="fl sf1">17%</div>-->
+                            <!--</div>-->
+                            <!--<div class="cpu1 w_100">-->
+                                <!--<div class="fl sf1">资源池5</div>-->
+                                <!--<img class="fl sf1" src="img/tubiao/ziyuan_3.png" alt="">-->
+                                <!--<div class="fl sf1">17%</div>-->
+                            <!--</div>-->
+                        </div>
+                        <div class="col_1_3_6 fl">
+                            <!--<div class="title_3">磁盘分配率</div>-->
+                            <div class="w_100" id="chart_12"></div>
+                            <!--<div class="cpu1 w_100">-->
+                                <!--<div class="fl sf1">资源池1</div>-->
+                                <!--<img class="fl sf1" src="img/tubiao/ziyuan.png" alt="">-->
+                                <!--<div id="lus2" class="fl sf1">66%</div>-->
+                            <!--</div>-->
+                            <!--<div class="cpu1 w_100">-->
+                                <!--<div class="fl sf1">资源池2</div>-->
+                                <!--<img class="fl sf1" src="img/tubiao/ziyuan_1.png" alt="">-->
+                                <!--<div class="fl sf1">36%</div>-->
+                            <!--</div>-->
+                            <!--<div class="cpu1 w_100">-->
+                                <!--<div class="fl sf1">资源池3</div>-->
+                                <!--<img class="fl sf1" src="img/tubiao/ziyuan_2.png" alt="">-->
+                                <!--<div class="fl sf1">21%</div>-->
+                            <!--</div>-->
+                            <!--<div class="cpu1 w_100">-->
+                                <!--<div class="fl sf1">资源池4</div>-->
+                                <!--<img class="fl sf1" src="img/tubiao/ziyuan_3.png" alt="">-->
+                                <!--<div class="fl sf1">17%</div>-->
+                            <!--</div>-->
+                            <!--<div class="cpu1 w_100">-->
+                                <!--<div class="fl sf1">资源池5</div>-->
+                                <!--<img class="fl sf1" src="img/tubiao/ziyuan_3.png" alt="">-->
+                                <!--<div class="fl sf1">17%</div>-->
+                            <!--</div>-->
+                        </div>
+                    </div>
+                </div>
+                <div class="row_1 fl w_100 clear">
+                    <div class="col_1_1 h_100  fl">
+                        <div class="left_1 fl top_box">
+                            <div class="title">机房人员进出情况</div>
+                            <div class="w_100 h_100 echart_box">
+                                <div class="w_100 h_100" id="bar"></div>
+                            </div>
+                        </div>
+                        <div class="left_1_1 fl">
+                            <div class="title">能效分析</div>
+                            <div class="w_100 h_100" id="pie6"></div>
+                            <ul class="legend_list"></ul>
+                            <img id="backG" src="./img/tubiao/beijingyuan2.png" alt="">
+                        </div>
+                        <div class="left_1_2 fl">
+                            <div class="title">设备维保数据统计</div>
+                            <div class="w_100 h_100" id="bar1"></div>
+                        </div>
+                        <div class="right_1_1 fl top_box">
+                            <div class="title">机柜数和机柜U位空间利用总览</div>
+                            <div class="w_100 h_100" id="bar2"></div>
+                        </div>
+                        <div class="right_1_2 fl">
+                            <div class="title">设计类型统计占比数</div>
+                            <div class="w_100 h_100" id="bar3"></div>
+                            <ul class="legend_list5"></ul>
+                        </div>
+                        <div class="right_1_3 fl">
+                            <div class="title">资源状态</div>
+                              <div class="zuo ">
+                                <div class="title11 ">容量总览</div>
+                                <!--<div class="zuo_1 fl">-->
+                                    <!--<div class="w_100 h_100" id="pie7"></div>-->
+                                    <!--<div>40%</div>-->
+                                <!--</div>-->
+                                <!--<div class="zuo_1 fl">-->
+                                    <!--<div  class="w_100 h_100"  id="pie8"></div>-->
+                                    <!--<div>40%</div>-->
+                                <!--</div>-->
+                                  <!--<div class="zuo_1 fl">-->
+                                      <!--<div  class="w_100 h_100"  id="pie9"></div>-->
+                                      <!--<div>40%</div>-->
+                                  <!--</div>-->
+                                  <div class="drawPieArr pr fl">
+                                      <div id="drawPieArr1" class="w_100 h_100"></div>
+                                      <div class="pa per_box"><span class="fs28">50</span><span class="fs14">%</span></div>
+                                      <div class="pa per_name">配电</div>
+                                  </div>
+                                  <div class="drawPieArr pr fl">
+                                      <div id="drawPieArr2" class="w_100 h_100"></div>
+                                      <div class="pa per_box"><span class="fs28">50</span><span class="fs14">%</span></div>
+                                      <div class="pa per_name">制冷</div>
+                                  </div>
+                                  <div class="drawPieArr pr fl">
+                                      <div id="drawPieArr3" class="w_100 h_100"></div>
+                                      <div class="pa per_box"><span class="fs28">50</span><span class="fs14">%</span></div>
+                                      <div class="pa per_name">U空间</div>
+                                  </div>
+                              </div>
+                              <div class="you_1 fr" >
+                                  <div class="title11 fl">机柜利用率</div>
+                                  <div class="w_100 h_100" id="bar4"></div>
+                              </div>
+                        </div>
+                    </div>
+                    <div class="col_1_2 h_100 fl clear">
+                        <div class="zuo_one fl">
+                             <div class="title">供配电系统状态图</div>
+                             <div><img src="img/tubiao/设备图1.png" alt=""></div>
+                        </div>
+                        <div class="zuo_one fl">
+                             <div class="title_1_2">制冷系统状态图</div>
+                             <div><img src="img/tubiao/设备2.png" alt=""></div>
+                        </div>
+                       <div class="xia_one fl">
+                           <div class="title">三相电流谐波畸变率</div>
+                           <div class="w_100" id="line3"></div>
+                       </div>
+                        <div class="xia_one fl">
+                            <div class="title_1_3">空调均值负载率</div>
+                            <div class="w_100" id="line4"></div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+<script src="./js/jquery-3.1.1.js"></script>
+<!--<script src="./js/jquery.dataTables.min.js"></script>-->
+    <script src="./js/underscore-min.js"></script>
+<script src="./js/echarts.js"></script>
+<script src="./js/wow.min.js"></script>
+<!--<script src="./js/layui.all.js"></script>-->
+<!--<script src="./js/myCommon.js"></script>-->
+<script src="./js/Ap_exhibition.js"></script>
+    <script src="./js/As.js"></script>
+</body>
+</html>

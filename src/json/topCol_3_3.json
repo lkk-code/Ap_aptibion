@@ -1,0 +1,163 @@
+{
+  "cloud_res_top":{
+    "title": "云资源池负载Top5",
+    "echart_list":[
+      {
+        "id": "chart_6",
+        "namer": "CPU使用率",
+        "data": [78, 46, 30, 21, 17]
+      },
+      {
+        "id": "chart_7",
+        "namer": "内存使用率",
+        "data": [62, 56, 30, 27, 9]
+      },
+      {
+        "id": "chart_8",
+        "namer": "磁盘IO",
+        "data": [43, 61, 27, 21, 10]
+      },
+      {
+        "id": "chart_9",
+        "namer": "网络IO",
+        "data": [63, 37, 30, 20, 10]
+      }
+    ]
+  },
+  "big_data":{
+    "title": "主机状态分布",
+    "col_1":{
+      "namer": "主机状态分布",
+      "echart_data": [
+        {
+          "name": "良好",
+          "value": 615
+        },
+        {
+          "name": "故障",
+          "value": 523
+        },
+        {
+          "name": "未知",
+          "value": 135
+        }
+      ]
+    },
+    "col_2":{
+      "namer": "主机用途分布",
+      "echart_data": [
+        {
+          "name": "计算",
+          "value": 923
+        },
+        {
+          "name": "管理",
+          "value": 620
+        },
+        {
+          "name": "数据",
+          "value": 430
+        }
+      ]
+    },
+    "col_3":{
+      "namer": "主机服务分布",
+      "echart_data": [
+        32,55,50,35,30,32,29,36
+      ]
+    }
+  },
+  "big_data_assets":{
+    "title": "大数据资产",
+    "echart_list":[
+      {
+        "namer": "存储空间使用量分布(GB)",
+        "id": "echart_circle_3",
+        "data": [
+          {
+            "name": "HDFS",
+            "value": 223
+          },
+          {
+            "name": "其他",
+            "value": 320
+          }
+        ]
+      },
+      {
+        "namer": "大数据表数量分布(张)",
+        "id": "echart_circle_4",
+        "data": [
+          {
+            "name": "Hbase",
+            "value": 830
+          },
+          {
+            "name": "SparkSQL",
+            "value": 320
+          },
+          {
+            "name": "Elk",
+            "value": 223
+          },
+          {
+            "name": "其他",
+            "value": 123
+          }
+        ]
+      },
+      {
+        "namer": "大数据条数量分布(条)",
+        "id": "echart_circle_5",
+        "data": [
+          {
+            "name": "Hbase",
+            "value": 920
+          },
+          {
+            "name": "SparkSQL",
+            "value": 330
+          },
+          {
+            "name": "Elk",
+            "value": 120
+          },
+          {
+            "name": "其他",
+            "value": 53
+          }
+        ]
+      }
+    ]
+  },
+  "big_data_res":{
+    "title":"大数据资源容量",
+    "echart_list":[
+      {
+        "id": "bar13",
+        "namer": "大数据资源分配率",
+        "data":  [560, 595, 780]
+      }
+    ]
+  },
+  "big_data_res_top":{
+    "title":"大数据资源池负载Top5",
+    "echart_list":[
+      {
+        "id": "chart_10",
+        "namer": "CPU使用率",
+        "data":  [80, 66, 55, 32, 17]
+      },
+      {
+        "id": "chart_11",
+        "namer": "内存使用率",
+        "data":  [79, 46, 38, 28, 12]
+      },
+      {
+        "id": "chart_12",
+        "namer": "磁盘使用率",
+        "data":  [62, 39, 25, 20, 17]
+      }
+    ]
+  }
+}
